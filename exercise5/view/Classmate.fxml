@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FruitController">
+   <children>
+      <Button fx:id="btn1" layoutX="119.0" layoutY="224.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="51.0" prefWidth="136.0" text="Christine">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" layoutX="422.0" layoutY="224.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="51.0" prefWidth="124.0" text="Beatriz">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="94.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/MicrosoftTeams-image%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="398.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/MicrosoftTeams-image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="633.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/MicrosoftTeams-image%20(2).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn3" layoutX="645.0" layoutY="224.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="117.0" onAction="#showInfo" text="Jasper">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" layoutX="274.0" layoutY="451.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="117.0" onAction="#showInfo"  text="Arjay">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="255.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/MicrosoftTeams-image%20(3).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn5" layoutX="546.0" layoutY="451.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="117.0" onAction="#showInfo" text="Justin">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="548.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/MicrosoftTeams-image%20(4).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

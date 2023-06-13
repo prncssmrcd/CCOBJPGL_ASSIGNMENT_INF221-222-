@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.friendController">
+   <children>
+      <ImageView fx:id="ra" fitHeight="117.0" fitWidth="128.0" layoutX="569.0" layoutY="59.0">
+         <image>
+            <Image url="@../images/lhara.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="tenBtn" layoutX="161.0" layoutY="185.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: black; -fx-background-color: ;" text="Ten" textFill="#ff5100">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="jelBtn" layoutX="355.0" layoutY="185.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="101.0" style="-fx-background-color: black;" text="Jel" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="loBtn" layoutX="318.0" layoutY="419.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="42.0" prefWidth="174.0" style="-fx-background-color: black;" text="lo" textFill="#b26e6e">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="tin" fitHeight="124.0" fitWidth="120.0" layoutX="345.0" layoutY="281.0">
+         <image>
+            <Image url="@../images/carlo.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="raBtn" layoutX="582.0" layoutY="179.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="101.0" style="-fx-background-color: black;" text="Lhara" textFill="#467dff">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="ten" fitHeight="124.0" fitWidth="139.0" layoutX="135.0" layoutY="52.0">
+         <image>
+            <Image url="@../images/Tenten.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="jel" fitHeight="117.0" fitWidth="128.0" layoutX="342.0" layoutY="59.0">
+         <image>
+            <Image url="@../images/jello.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
